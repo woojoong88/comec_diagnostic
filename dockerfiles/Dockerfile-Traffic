@@ -1,0 +1,5 @@
+FROM woojoong/kone-traffic-gen:latest
+
+COPY ./pcap /opt/pcap
+
+WORKDIR /opt/pcap
